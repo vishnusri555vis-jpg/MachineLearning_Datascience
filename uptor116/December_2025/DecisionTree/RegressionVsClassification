@@ -1,0 +1,11 @@
+Continuous Data - Regression
+    Data Linear - Linear Regression
+    Data Non Linear Continuous - DecisionTreeRegression
+
+Yes/No - Classification
+    Categorical Binary - Logistic Regression
+    Non Linear MultiClassifier - DecisionTreeClassifier
+
+Binary vs Multi classifier
+Binary (0,1) - Logistic Regression
+Multi - Decision TreeClassifier (Eg: Load_iris dataset - 0,1,2)
