@@ -1,0 +1,40 @@
+DecisionTree
+
+Decision Tree is called Non Parametric Model. Supervised Learning
+
+2 Kinds of Model:
+
+1. Parametric:
+    Just with assumption above the data and its relationship with col
+    Ex: Linear Regression
+
+2. Non Parametric:
+    Just with assumption above the data and its relationship with col
+    and also considering the rows (no of rows)
+    Ex: Decision Tree
+
+Decision Tree:
+1. It is meant for non-linear data, but can be used in linear also
+2. It is for both Classification and Regession
+3. Any model that work for both is called 'cart' model
+4. This is going to predict data based on the Tree structure
+    - Based on columns(node) tree is formed
+    - Out of all column, 1 node will be chosen as parent node
+    - Target will be final leaf element
+    - Node is x data, leaf is y data
+
+5.Parameters of decision tree:
+1. Parent Node:
+Parent node is based on 2 parameters and this process is called as "criterion"
+    1. Gini InPurity(Default chosen)
+    2. Entropy
+Parent node will be selected based on any of the 2 metrics and its "Information Gain"
+Which col has more value will be selected
+
+2.Max Depth
+3.Min Sample Leaf
+4.Min Sample Split
+5.n_jobs
+
+
+
